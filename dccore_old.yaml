@@ -169,6 +169,18 @@ tasks:
     dest: ./resources/[dc]/ox_inventory
     src: ./tmp/ox_inventory.zip
 
+  - action: download_file
+    path: ./tmp/ox_lib.zip
+    url: https://github.com/overextended/ox_lib/releases/download/v2.19.0/ox_lib.zip
+  - action: unzip
+    dest: ./resources/[dc]/ox_lib
+    src: ./tmp/ox_lib.zip
+
+  - action: download_github
+    dest: ./resources/[dc]/ox_fuel
+    ref: main
+    src: https://github.com/overextended/ox_fuel
+
   - action: waste_time # prevent github throttling
     seconds: 10
 
