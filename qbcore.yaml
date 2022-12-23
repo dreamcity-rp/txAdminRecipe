@@ -122,20 +122,20 @@ tasks:
 
   # Downloading QBCore resources
   # V 0.1.0
-  - action: download_github
-    dest: ./resources/[dc]/dc-core
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-core
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-core
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-core
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-adminmenu
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-adminmenu
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-adminmenu
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-adminmenu
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-multicharacter
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-multicharacter
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-multicharacter
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-multicharacter
 
   - action: download_file
     path: ./tmp/ox_target.zip
@@ -147,20 +147,20 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-prison
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-prison
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-prison
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-prison
 
   - action: download_github
     dest: ./resources/[dc]/ps-hud
     ref: main
     src: https://github.com/Project-Sloth/ps-hud
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-management
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-management
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-management
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-management
 
   - action: download_file
     path: ./tmp/ox_inventory.zip
@@ -172,62 +172,61 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-ambulancejob
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-ambulancejob
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-ambulancejob
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-ambulancejob
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-weathersync
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-weathersync
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-weathersync
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-weathersync
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-policejob
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-policejob
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-policejob
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-policejob
 
-
-  - action: download_github
-    dest: ./resources/[dc]/dc-apartments
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-apartments
-
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
-  - action: download_github
-    dest: ./resources/[dc]/dc-spawn
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-spawn
-
-  - action: download_github
-    dest: ./resources/[dc]/dc-skillbar
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-skillbar
-
-  - action: download_github
-    dest: ./resources/[dc]/dc-smallresources
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-smallresources
-
-  - action: download_github
-    dest: ./resources/[dc]/dc-recyclejob
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-recyclejob
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-apartments
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-apartments
 
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-cityhall
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-cityhall
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-spawn
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-spawn
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-commandbinding
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-commandbinding
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-skillbar
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-skillbar
+
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-smallresources
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-smallresources
+
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-recyclejob
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-recyclejob
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-cityhall
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-cityhall
+
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-commandbinding
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-commandbinding
 
   - action: download_github
     dest: ./resources/[dc]/fivem-appearance
@@ -244,25 +243,25 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-interior
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-interior
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-interior
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-interior
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-menu
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-menu
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-menu
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-menu
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-input
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-input
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-input
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-input
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-loading
-    ref: main
-    src: https://github.com/dreamcity-rp/dc-loading
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-loading
+  #   ref: main
+  #   src: https://github.com/dreamcity-rp/dc-loading
 
   - action: waste_time # prevent github throttling
     seconds: 10
