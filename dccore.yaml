@@ -185,9 +185,9 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[dc]/qb-radialmenu
+    dest: ./resources/[dc]/dc-radialmenu
     ref: main
-    src: https://github.com/qbcore-framework/qb-radialmenu
+    src: https://github.com/qbcore-framework/dc-radialmenu
 
   # Clean up
   - action: remove_path
