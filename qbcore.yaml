@@ -8,7 +8,7 @@ description: An advanced FiveM RP framework including jobs, gangs, housing & mor
 tasks:
   #  Download Base Files
   - action: download_github
-    src: https://bsk193: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@github.com/dreamcity-rp/txAdminRecipe
+    src: https://github.com/dreamcity-rp/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
 
@@ -125,17 +125,17 @@ tasks:
   - action: download_github
     dest: ./resources/[dc]/dc-core
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-core
+    src: https://github.com/dreamcity-rp/dc-core
 
   - action: download_github
     dest: ./resources/[dc]/dc-adminmenu
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-adminmenu
+    src: https://github.com/dreamcity-rp/dc-adminmenu
 
   - action: download_github
     dest: ./resources/[dc]/dc-multicharacter
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-multicharacter
+    src: https://github.com/dreamcity-rp/dc-multicharacter
 
   - action: download_file
     path: ./tmp/ox_target.zip
@@ -150,7 +150,7 @@ tasks:
   - action: download_github
     dest: ./resources/[dc]/dc-prison
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-prison
+    src: https://github.com/dreamcity-rp/dc-prison
 
   - action: download_github
     dest: ./resources/[dc]/ps-hud
@@ -160,7 +160,7 @@ tasks:
   - action: download_github
     dest: ./resources/[dc]/dc-management
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-management
+    src: https://github.com/dreamcity-rp/dc-management
 
   - action: download_file
     path: ./tmp/ox_inventory.zip
@@ -175,23 +175,23 @@ tasks:
   - action: download_github
     dest: ./resources/[dc]/dc-ambulancejob
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-ambulancejob
+    src: https://github.com/dreamcity-rp/dc-ambulancejob
 
   - action: download_github
     dest: ./resources/[dc]/dc-weathersync
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-weathersync
+    src: https://github.com/dreamcity-rp/dc-weathersync
 
   - action: download_github
     dest: ./resources/[dc]/dc-policejob
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-policejob
+    src: https://github.com/dreamcity-rp/dc-policejob
 
 
   - action: download_github
     dest: ./resources/[dc]/dc-apartments
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-apartments
+    src: https://github.com/dreamcity-rp/dc-apartments
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -199,22 +199,22 @@ tasks:
   - action: download_github
     dest: ./resources/[dc]/dc-spawn
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-spawn
+    src: https://github.com/dreamcity-rp/dc-spawn
 
   - action: download_github
     dest: ./resources/[dc]/dc-skillbar
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-skillbar
+    src: https://github.com/dreamcity-rp/dc-skillbar
 
   - action: download_github
     dest: ./resources/[dc]/dc-smallresources
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-smallresources
+    src: https://github.com/dreamcity-rp/dc-smallresources
 
   - action: download_github
     dest: ./resources/[dc]/dc-recyclejob
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-recyclejob
+    src: https://github.com/dreamcity-rp/dc-recyclejob
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -222,12 +222,12 @@ tasks:
   - action: download_github
     dest: ./resources/[dc]/dc-cityhall
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-cityhall
+    src: https://github.com/dreamcity-rp/dc-cityhall
 
   - action: download_github
     dest: ./resources/[dc]/dc-commandbinding
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-commandbinding
+    src: https://github.com/dreamcity-rp/dc-commandbinding
 
   - action: download_github
     dest: ./resources/[dc]/fivem-appearance
@@ -247,22 +247,22 @@ tasks:
   - action: download_github
     dest: ./resources/[dc]/dc-interior
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-interior
+    src: https://github.com/dreamcity-rp/dc-interior
 
   - action: download_github
     dest: ./resources/[dc]/dc-menu
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-menu
+    src: https://github.com/dreamcity-rp/dc-menu
 
   - action: download_github
     dest: ./resources/[dc]/dc-input
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-input
+    src: https://github.com/dreamcity-rp/dc-input
 
   - action: download_github
     dest: ./resources/[dc]/dc-loading
     ref: main
-    src: https://bsk193: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@github.com/dreamcity-rp/dc-loading
+    src: https://github.com/dreamcity-rp/dc-loading
 
   - action: waste_time # prevent github throttling
     seconds: 10
