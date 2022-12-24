@@ -134,7 +134,7 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[dc]/ps-hud
+    dest: ./resources/[dc]/dc-hud
     ref: main
     src: https://github.com/Project-Sloth/ps-hud
 
