@@ -31,6 +31,8 @@ tasks:
     src: https://github.com/citizenfx/cfx-server-data
     subpath: resources
     dest: ./resources/[cfx-default]
+    accessToken: none
+    privateRepo: false
 
   - action: download_file
     path: ./tmp/files/oxmysql.zip
@@ -50,46 +52,64 @@ tasks:
     dest: ./resources/[standalone]/bob74_ipl
     ref: master
     src: https://github.com/qbcore-framework/bob74_ipl
+    accessToken: none
+    privateRepo: false
 
   - action: download_github
     dest: ./resources/[standalone]/safecracker
     ref: main
     src: https://github.com/qbcore-framework/safecracker
+    accessToken: none
+    privateRepo: true
 
   - action: download_github
     dest: ./resources/[standalone]/screenshot-basic
     ref: master
     src: https://github.com/citizenfx/screenshot-basic
+    accessToken: none
+    privateRepo: false
 
   - action: download_github
     dest: ./resources/[standalone]/progressbar
     ref: main
     src: https://github.com/qbcore-framework/progressbar
+    accessToken: none
+    privateRepo: false
 
   - action: download_github
     dest: ./resources/[standalone]/interact-sound
     ref: master
     src: https://github.com/qbcore-framework/interact-sound
+    accessToken: none
+    privateRepo: false
 
   - action: download_github
     dest: ./resources/[standalone]/mhacking
     ref: main
     src: https://github.com/qbcore-framework/mhacking
+    accessToken: none
+    privateRepo: false
 
   - action: download_github
     dest: ./resources/[standalone]/connectqueue
     ref: master
     src: https://github.com/qbcore-framework/connectqueue
+    accessToken: none
+    privateRepo: false
 
   - action: download_github
     dest: ./resources/[standalone]/dpemotes
     ref: master
     src: https://github.com/qbcore-framework/dpemotes
+    accessToken: none
+    privateRepo: false
 
   - action: download_github
     dest: ./resources/[standalone]/PolyZone
     ref: master
     src: https://github.com/qbcore-framework/PolyZone
+    accessToken: none
+    privateRepo: false
 
   - action: download_file
     path: ./tmp/menuv.zip
@@ -103,29 +123,39 @@ tasks:
     dest: ./resources/[voice]/pma-voice
     ref: main
     src: https://github.com/AvarianKnight/pma-voice
-
+    accessToken: none
+    privateRepo: false
+    
     # MAPS
   - action: download_github
     dest: ./resources/[defaultmaps]/hospital_map
     ref: main
     src: https://github.com/qbcore-framework/hospital_map
+    accessToken: none
+    privateRepo: false
 
   - action: download_github
     dest: ./resources/[defaultmaps]/dealer_map
     ref: main
     src: https://github.com/qbcore-framework/dealer_map
+    accessToken: none
+    privateRepo: false
 
   - action: download_github
     dest: ./resources/[defaultmaps]/[prison_map]
     ref: main
     src: https://github.com/qbcore-framework/prison_map
+    accessToken: none
+    privateRepo: false
 
   # Downloading QBCore resources
   # V 0.1.0
-  # - action: download_github
-  #   dest: ./resources/[dc]/dc-core
-  #   ref: main
-  #   src: https://github.com/dreamcity-rp/dc-core
+  - action: download_github
+    dest: ./resources/[dc]/dc-core
+    ref: main
+    src: https://github.com/dreamcity-rp/dc-core
+    accessToken: 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
+    privateRepo: true
 
   # - action: download_github
   #   dest: ./resources/[dc]/dc-adminmenu
@@ -152,10 +182,10 @@ tasks:
   #   ref: main
   #   src: https://github.com/dreamcity-rp/dc-prison
 
-  - action: download_github
-    dest: ./resources/[dc]/ps-hud
-    ref: main
-    src: https://github.com/Project-Sloth/ps-hud
+  # - action: download_github
+  #   dest: ./resources/[dc]/ps-hud
+  #   ref: main
+  #   src: https://github.com/Project-Sloth/ps-hud
 
   # - action: download_github
   #   dest: ./resources/[dc]/dc-management
@@ -176,10 +206,10 @@ tasks:
     dest: ./resources/[dc]/ox_lib
     src: ./tmp/ox_lib.zip
 
-  - action: download_github
-    dest: ./resources/[dc]/ox_fuel
-    ref: main
-    src: https://github.com/overextended/ox_fuel
+  # - action: download_github
+  #   dest: ./resources/[dc]/ox_fuel
+  #   ref: main
+  #   src: https://github.com/overextended/ox_fuel
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -278,10 +308,10 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[dc]/dc-radialmenu
-    ref: main
-    src: https://github.com/qbcore-framework/dc-radialmenu
+  # - action: download_github
+  #   dest: ./resources/[dc]/dc-radialmenu
+  #   ref: main
+  #   src: https://github.com/qbcore-framework/dc-radialmenu
 
   # Clean up
   - action: remove_path
