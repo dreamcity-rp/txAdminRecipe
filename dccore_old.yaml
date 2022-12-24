@@ -11,8 +11,7 @@ tasks:
     src: https://github.com/dreamcity-rp/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
-    accessToken: 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
-    privateRepo: true
+    accessToken: "?access_token=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"
 
   - action: move_path
     src: ./tmp/qbcore/server.cfg
@@ -33,8 +32,7 @@ tasks:
     src: https://github.com/citizenfx/cfx-server-data
     subpath: resources
     dest: ./resources/[cfx-default]
-    accessToken: none
-    privateRepo: false
+    accessToken: "?access_token=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"
 
   - action: download_file
     path: ./tmp/files/oxmysql.zip
@@ -156,8 +154,7 @@ tasks:
     dest: ./resources/[dc]/dc-core
     ref: main
     src: https://github.com/dreamcity-rp/dc-core
-    accessToken: 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
-    privateRepo: true
+    accessToken: "?access_token=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"
 
   # - action: download_github
   #   dest: ./resources/[dc]/dc-adminmenu
