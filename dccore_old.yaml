@@ -11,6 +11,8 @@ tasks:
     src: https://github.com/dreamcity-rp/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
+    accessToken: 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
+    privateRepo: true
 
   - action: move_path
     src: ./tmp/qbcore/server.cfg
