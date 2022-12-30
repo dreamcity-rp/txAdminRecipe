@@ -17,8 +17,8 @@ tasks:
     dest: ./server.cfg
 
     action: move_path
-    src: ./tmp/qbcore/dreamcity-rp_clone.sh
-    dest: ./dreamcity-rp_clone.sh
+    src: ./tmp/qbcore/dreamcity-rp_clone
+    dest: ./dreamcity-rp_clone
 
   - action: move_path
     src: ./tmp/qbcore/myLogo.png
