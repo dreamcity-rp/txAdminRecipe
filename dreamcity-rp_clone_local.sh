@@ -1,0 +1,30 @@
+#!/bin/sh
+
+git clone https://github.com/dreamcity-rp/fivem-appearance.git 
+git clone https://github.com/dreamcity-rp/dc-hud.git 
+git clone https://github.com/dreamcity-rp/ox_fuel.git 
+git clone https://github.com/dreamcity-rp/dc-weathersync.git 
+git clone https://github.com/dreamcity-rp/dc-spawn.git 
+git clone https://github.com/dreamcity-rp/dc-smallresources.git 
+git clone https://github.com/dreamcity-rp/dc-skillbar.git 
+git clone https://github.com/dreamcity-rp/dc-recyclejob.git 
+git clone https://github.com/dreamcity-rp/dc-prison.git 
+git clone https://github.com/dreamcity-rp/dc-policejob.git 
+git clone https://github.com/dreamcity-rp/dc-multicharacter.git 
+git clone https://github.com/dreamcity-rp/dc-menu.git 
+git clone https://github.com/dreamcity-rp/dc-management.git 
+git clone https://github.com/dreamcity-rp/dc-loading.git 
+git clone https://github.com/dreamcity-rp/dc-interior.git 
+git clone https://github.com/dreamcity-rp/dc-input.git 
+git clone https://github.com/dreamcity-rp/dc-core.git 
+git clone https://github.com/dreamcity-rp/dc-commandbinding.git 
+git clone https://github.com/dreamcity-rp/dc-cityhall.git 
+git clone https://github.com/dreamcity-rp/dc-apartments.git 
+git clone https://github.com/dreamcity-rp/dc-ambulancejob.git 
+git clone https://github.com/dreamcity-rp/dc-adminmenu.git
+git clone https://github.com/dreamcity-rp/ox_inventory.git
+git clone https://github.com/dreamcity-rp/ox_doorlock.git
+git clone https://github.com/dreamcity-rp/ox_target.git
+git clone https://github.com/dreamcity-rp/ox_lib.git
+git clone https://github.com/dreamcity-rp/safecracker.git
+git clone https://github.com/dreamcity-rp/depemotes.git

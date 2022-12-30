@@ -52,11 +52,6 @@ tasks:
     src: https://github.com/qbcore-framework/bob74_ipl
 
   - action: download_github
-    dest: ./resources/[standalone]/safecracker
-    ref: main
-    src: https://github.com/qbcore-framework/safecracker
-
-  - action: download_github
     dest: ./resources/[standalone]/screenshot-basic
     ref: master
     src: https://github.com/citizenfx/screenshot-basic
@@ -82,21 +77,9 @@ tasks:
     src: https://github.com/qbcore-framework/connectqueue
 
   - action: download_github
-    dest: ./resources/[standalone]/dpemotes
-    ref: master
-    src: https://github.com/qbcore-framework/dpemotes
-
-  - action: download_github
     dest: ./resources/[standalone]/PolyZone
     ref: master
     src: https://github.com/qbcore-framework/PolyZone
-
-  - action: download_file
-    path: ./tmp/menuv.zip
-    url: https://github.com/ThymonA/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip
-  - action: unzip
-    dest: ./resources/[standalone]/menuv
-    src: ./tmp/menuv.zip
 
     # VOICE
   - action: download_github
