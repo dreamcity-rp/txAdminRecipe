@@ -334,25 +334,42 @@ CREATE TABLE IF NOT EXISTS `trunkitems` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1;
 
 CREATE TABLE IF NOT EXISTS `management_funds` (
-`id` INT(11) NOT NULL AUTO_INCREMENT,
-`job_name` VARCHAR(50) NOT NULL,
-`amount`  INT(100) NOT NULL,
-`type` ENUM('boss','gang') NOT NULL DEFAULT 'boss',
-PRIMARY KEY (`id`),
-UNIQUE KEY `job_name` (`job_name`),
-KEY `type` (`type`)
-);
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `job_name` VARCHAR(50) NOT NULL,
+  `amount`  INT(100) NOT NULL,
+  `type` ENUM('boss','gang') NOT NULL DEFAULT 'boss',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `job_name` (`job_name`),
+  KEY `type` (`type`)
+) ENGINE=InnoDB AUTO_INCREMENT=1;
+
+CREATE TABLE IF NOT EXISTS `ox_doorlock` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `data` longtext NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=8;
+
+INSERT INTO `ox_doorlock` (`id`, `name`, `data`) VALUES
+	(1, 'character_room', '{"maxDistance":2,"coords":{"x":-809.2808837890625,"y":177.85536193847657,"z":76.89032745361328},"heading":201,"doors":false,"passcode":"5555","model":-384976104,"state":1}'),
+	(2, 'character_house', '{"maxDistance":2,"coords":{"x":-816.411376953125,"y":178.30441284179688,"z":72.82737731933594},"state":1,"doors":[{"coords":{"x":-816.1068115234375,"y":177.5108642578125,"z":72.82737731933594},"heading":291,"model":-1686014385},{"coords":{"x":-816.7160034179688,"y":179.09796142578126,"z":72.82737731933594},"heading":291,"model":159994461}],"passcode":"5555"}'),
+	(3, 'character_garage', '{"maxDistance":2,"coords":{"x":-815.2816162109375,"y":185.97499084472657,"z":72.99993133544922},"heading":291,"doors":false,"passcode":"5555","model":30769481,"state":1}'),
+	(4, 'character_balcony_1', '{"maxDistance":2,"coords":{"x":-793.789794921875,"y":181.53773498535157,"z":73.04045104980469},"state":1,"doors":[{"coords":{"x":-793.3943481445313,"y":180.50746154785157,"z":73.04045104980469},"heading":111,"model":-1454760130},{"coords":{"x":-794.185302734375,"y":182.56800842285157,"z":73.04045104980469},"heading":111,"model":1245831483}],"passcode":"5555"}'),
+	(5, 'character_balcony_2', '{"maxDistance":2,"coords":{"x":-795.535400390625,"y":177.61688232421876,"z":73.04045104980469},"state":1,"doors":[{"coords":{"x":-796.565673828125,"y":177.22137451171876,"z":73.04045104980469},"heading":21,"model":-1454760130},{"coords":{"x":-794.505126953125,"y":178.0123748779297,"z":73.04045104980469},"heading":21,"model":1245831483}],"passcode":"5555"}'),
+	(6, 'character_gate', '{"maxDistance":2,"coords":{"x":-844.051025390625,"y":155.9619140625,"z":66.03221130371094},"heading":90,"doors":false,"passcode":"5555","model":-2125423493,"state":1}'),
+	(7, 'character_gate2', '{"maxDistance":2,"coords":{"x":-848.934326171875,"y":179.307861328125,"z":70.02470397949219},"heading":265,"doors":false,"passcode":"5555","model":-1568354151,"state":1}');
+
 
 INSERT INTO `management_funds` (`job_name`, `amount`, `type`) VALUES
-('police', 0, 'boss'),
-('ambulance', 0, 'boss'),
-('realestate', 0, 'boss'),
-('taxi', 0, 'boss'),
-('cardealer', 0, 'boss'),
-('mechanic', 0, 'boss'),
-('lostmc', 0, 'gang'),
-('ballas', 0, 'gang'),
-('vagos', 0, 'gang'),
-('cartel', 0, 'gang'),
-('families', 0, 'gang'),
-('triads', 0, 'gang');
+  ('police', 0, 'boss'),
+  ('ambulance', 0, 'boss'),
+  ('realestate', 0, 'boss'),
+  ('taxi', 0, 'boss'),
+  ('cardealer', 0, 'boss'),
+  ('mechanic', 0, 'boss'),
+  ('lostmc', 0, 'gang'),
+  ('ballas', 0, 'gang'),
+  ('vagos', 0, 'gang'),
+  ('cartel', 0, 'gang'),
+  ('families', 0, 'gang'),
+  ('triads', 0, 'gang');

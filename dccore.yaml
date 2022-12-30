@@ -15,6 +15,14 @@ tasks:
   - action: move_path
     src: ./tmp/qbcore/server.cfg
     dest: ./server.cfg
+  
+  - action: move_path
+    src: ./tmp/qbcore/inventory.cfg
+    dest: ./inventory.cfg
+
+  - action: move_path
+    src: ./tmp/qbcore/target.cfg
+    dest: ./target.cfg
 
   - action: move_path
     src: ./tmp/qbcore/dreamcity-rp_clone
