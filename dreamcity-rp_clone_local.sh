@@ -27,4 +27,4 @@ git clone https://github.com/dreamcity-rp/ox_doorlock.git
 git clone https://github.com/dreamcity-rp/ox_target.git
 git clone https://github.com/dreamcity-rp/ox_lib.git
 git clone https://github.com/dreamcity-rp/safecracker.git
-git clone https://github.com/dreamcity-rp/depemotes.git
+git clone https://github.com/dreamcity-rp/dpemotes.git
