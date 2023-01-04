@@ -20,7 +20,6 @@ git clone https://github.com/dreamcity-rp/dc-adminmenu.git      	resources/[dc]/
 git clone https://github.com/dreamcity-rp/dc-vehicle.git 			    resources/[dc]/[core]/dc-vehicle &&
 git clone https://github.com/dreamcity-rp/dc-mdw.git      			  resources/[dc]/[core]/dc-mdw &&
 git clone https://github.com/dreamcity-rp/dc-dispatch.git 			  resources/[dc]/[core]/dc-dispatch &&
-git clone https://github.com/dreamcity-rp/dc-evidence.git      		resources/[dc]/[core]/dc-evidence &&
 git clone https://github.com/dreamcity-rp/ox_fuel.git           	resources/[dc]/[core]/[ox]/ox_fuel &&
 git clone https://github.com/dreamcity-rp/ox_target.git         	resources/[dc]/[core]/[ox]/ox_target &&
 git clone https://github.com/dreamcity-rp/ox_lib.git         		  resources/[dc]/[core]/[ox]/ox_lib &&
