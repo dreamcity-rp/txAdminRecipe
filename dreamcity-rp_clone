@@ -9,8 +9,13 @@ git clone https://github.com/dreamcity-rp/dc-management.git     resources/[dc]/[
 git clone https://github.com/dreamcity-rp/dc-loading.git        resources/[dc]/[core]/dc-loading &&
 git clone https://github.com/dreamcity-rp/dc-interior.git       resources/[dc]/[core]/dc-interior &&
 git clone https://github.com/dreamcity-rp/dc-input.git          resources/[dc]/[core]/dc-input &&
+git clone https://github.com/dreamcity-rp/dc-tunerchip.git      resources/[dc]/[core]/dc-tunerchip &&
+git clone https://github.com/dreamcity-rp/dc-vehiclekeys.git    resources/[dc]/[core]/dc-vehiclekeys &&
 git clone https://github.com/dreamcity-rp/ox_fuel.git           resources/[dc]/[core]/[ox]/ox_fuel &&
 git clone https://github.com/dreamcity-rp/ox_target.git         resources/[dc]/[core]/[ox]/ox_target &&
+git clone https://github.com/dreamcity-rp/ox_lib.git         	resources/[dc]/[core]/[ox]/ox_lib &&
+git clone https://github.com/dreamcity-rp/ox_inventory.git      resources/[dc]/[core]/[ox]/ox_inventory &&
+git clone https://github.com/dreamcity-rp/ox_doorlock.git       resources/[dc]/[core]/[ox]/ox_doorlock &&
 git clone https://github.com/dreamcity-rp/dc-commandbinding.git resources/[dc]/[core]/dc-commandbinding &&
 git clone https://github.com/dreamcity-rp/dc-adminmenu.git      resources/[dc]/[core]/dc-adminmenu &&
 git clone https://github.com/dreamcity-rp/dc-recyclejob.git     resources/[dc]/[activities]/dc-recyclejob &&
@@ -22,4 +27,4 @@ git clone https://github.com/dreamcity-rp/dc-prison.git         resources/[dc]/[
 git clone https://github.com/dreamcity-rp/dc-cityhall.git       resources/[dc]/[others]/dc-cityhall &&
 git clone https://github.com/dreamcity-rp/dc-apartments.git     resources/[dc]/[others]/dc-apartments &&
 git clone https://github.com/dreamcity-rp/safecracker.git       resources/[standalone]/safecracker &&
-git clone https://github.com/dreamcity-rp/dpemotes.git          resources/[standalone]/dpemotes 
+git clone https://github.com/dreamcity-rp/dpemotes.git          resources/[standalone]/dpemotes
