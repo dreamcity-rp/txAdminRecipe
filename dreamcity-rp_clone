@@ -12,7 +12,7 @@ git clone https://github.com/dreamcity-rp/dc-input.git          	resources/[dc]/
 git clone https://github.com/dreamcity-rp/dc-tunerchip.git      	resources/[dc]/[core]/dc-tunerchip &&
 git clone https://github.com/dreamcity-rp/dc-vehiclekeys.git    	resources/[dc]/[core]/dc-vehiclekeys &&
 git clone https://github.com/dreamcity-rp/dc-anticheat.git    		resources/[dc]/[core]/dc-anticheat &&
-git clone https://github.com/dreamcity-rp/dc-crypto.git    			  resources/[dc]/[core]/dc-crypto &&
+#Disabled git clone https://github.com/dreamcity-rp/dc-crypto.git    			  resources/[dc]/[core]/dc-crypto &&
 git clone https://github.com/dreamcity-rp/dc-keyminigame.git    	resources/[dc]/[core]/dc-keyminigame &&
 git clone https://github.com/dreamcity-rp/dc-lockpick.git    		  resources/[dc]/[core]/dc-lockpick &&
 git clone https://github.com/dreamcity-rp/dc-commandbinding.git 	resources/[dc]/[core]/dc-commandbinding &&
