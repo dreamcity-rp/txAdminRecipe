@@ -12,7 +12,6 @@ git clone https://github.com/dreamcity-rp/dc-input.git          	resources/[dc]/
 git clone https://github.com/dreamcity-rp/dc-tunerchip.git      	resources/[dc]/[core]/dc-tunerchip &&
 git clone https://github.com/dreamcity-rp/dc-vehiclekeys.git    	resources/[dc]/[core]/dc-vehiclekeys &&
 git clone https://github.com/dreamcity-rp/dc-anticheat.git    		resources/[dc]/[core]/dc-anticheat &&
-#Disabled git clone https://github.com/dreamcity-rp/dc-crypto.git    			  resources/[dc]/[core]/dc-crypto &&
 git clone https://github.com/dreamcity-rp/dc-keyminigame.git    	resources/[dc]/[core]/dc-keyminigame &&
 git clone https://github.com/dreamcity-rp/dc-lockpick.git    		  resources/[dc]/[core]/dc-lockpick &&
 git clone https://github.com/dreamcity-rp/dc-commandbinding.git 	resources/[dc]/[core]/dc-commandbinding &&
@@ -25,6 +24,10 @@ git clone https://github.com/dreamcity-rp/ox_target.git         	resources/[dc]/
 git clone https://github.com/dreamcity-rp/ox_lib.git         		  resources/[dc]/[core]/[ox]/ox_lib &&
 git clone https://github.com/dreamcity-rp/ox_inventory.git      	resources/[dc]/[core]/[ox]/ox_inventory &&
 git clone https://github.com/dreamcity-rp/ox_doorlock.git       	resources/[dc]/[core]/[ox]/ox_doorlock &&
+git clone https://github.com/dreamcity-rp/pefcl.git       	      resources/[dc]/[core]/[pe]/pefcl &&
+git clone https://github.com/dreamcity-rp/npwd.git       	        resources/[dc]/[core]/[pe]/pefcl &&
+git clone https://github.com/dreamcity-rp/dc-pefcl.git       	    resources/[dc]/[core]/[pe]/dc-pefcl &&
+git clone https://github.com/dreamcity-rp/dc-npwd.git       	    resources/[dc]/[core]/[pe]/dc-npwd &&
 git clone https://github.com/dreamcity-rp/dc-recyclejob.git     	resources/[dc]/[activities]/dc-recyclejob &&
 git clone https://github.com/dreamcity-rp/dc-policejob.git      	resources/[dc]/[activities]/[jobs]/[private]/dc-policejob &&
 git clone https://github.com/dreamcity-rp/dc-ambulancejob.git   	resources/[dc]/[activities]/[jobs]/[private]/dc-ambulancejob &&
